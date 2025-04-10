@@ -1,0 +1,5 @@
+services:
+  inference_server:
+    image: ayushisapru02/inference_server:latest
+    ports:
+      - "5000:5000"
